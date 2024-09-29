@@ -1,0 +1,6 @@
+db install -sql C:\opt\l2j\server\login\sql -u l2j -p l2jserver2019 -m FULL -t LOGIN -c -mods
+db install -sql C:\opt\l2j\server\game\sql -u l2j -p l2jserver2019 -m FULL -t GAME -c -mods
+
+db install -sql C:\Users\ezega\eclipse-workspace\ServerDatapack\login\sql -u root -p 3573278590 -m FULL -t LOGIN -c -mods
+db install -sql C:\Users\ezega\eclipse-workspace\ServerDatapack\game\sql -u root -p 3573278590 -m FULL -t GAME -c -mods
+
