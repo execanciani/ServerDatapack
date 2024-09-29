@@ -11,15 +11,13 @@
  * Contact us with any questions by the media
  * provided by our web or email marco.faccio@gmail.com
  */
-package com.l2jserver.engine.data;
+package com.l2jserver.datapack.custom.engine.data;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Logger;
 
-import main.enums.ItemIconType;
 import main.util.builders.html.Icon;
-import net.sf.l2j.commons.random.Rnd;
 
 /**
  * Thx AbsolutePower for parseItems and code

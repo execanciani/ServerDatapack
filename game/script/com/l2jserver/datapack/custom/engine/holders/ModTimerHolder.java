@@ -11,12 +11,12 @@
  * Contact us with any questions by the media
  * provided by our web or email marco.faccio@gmail.com
  */
-package com.l2jserver.datapack.custom.enginemods.holders;
+package com.l2jserver.datapack.custom.engine.holders;
 
 import java.util.concurrent.ScheduledFuture;
 import java.util.logging.Logger;
 
-import com.l2jserver.datapack.custom.enginemods.mods.AbstractMods;
+import com.l2jserver.datapack.custom.engine.mods.AbstractMods;
 import com.l2jserver.gameserver.ThreadPoolManager;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;

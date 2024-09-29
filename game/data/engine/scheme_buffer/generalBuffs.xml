@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<buff type="BUFF" id="1036" lvl="2" description="M.Def. +30%"/>
+	<buff type="BUFF" id="1040" lvl="3" description="P.Def. +15%"/>
+	<buff type="BUFF" id="1043" lvl="1" description="Makes physical attacks Holy attribute"/>
+	<buff type="BUFF" id="1044" lvl="3" description="HP regen per tick +20%"/>
+	<buff type="BUFF" id="1045" lvl="6" description="HP +35%"/>
+	<buff type="BUFF" id="1047" lvl="4" description="MP Regen per tick +3.09"/>
+	<buff type="BUFF" id="1048" lvl="6" description="MP +35%"/>
+	<buff type="BUFF" id="1059" lvl="3" description="M.Atk. +75%"/>
+	<buff type="BUFF" id="1068" lvl="3" description="P.Atk. +10%, does not stack with Greater Shield or Eart Chant"/>
+	<buff type="BUFF" id="1077" lvl="3" description="Critical +30%"/>
+	<buff type="BUFF" id="1085" lvl="3" description="Casting Spd. +30%"/>
+	<buff type="BUFF" id="1086" lvl="2" description="Atk. Spd. +33%"/>
+	<buff type="BUFF" id="1087" lvl="3" description="Evasion +4"/>
+	<buff type="BUFF" id="1204" lvl="2" description="Speed +33"/>
+	<buff type="BUFF" id="1240" lvl="3" description="Accuracy +4"/>
+	<buff type="BUFF" id="1242" lvl="3" description="Critical Damage +35%"/>
+	<buff type="BUFF" id="1243" lvl="6" description="Shield Block Rate +80%"/>
+	<buff type="BUFF" id="1257" lvl="3" description="Weight Penalty +9000 (does not increase capacity)"/>
+	<buff type="BUFF" id="1268" lvl="4" description="Recover 9% of melee physical damage as HP"/>
+	<buff type="BUFF" id="1303" lvl="2" description=""/>
+	<buff type="BUFF" id="1304" lvl="3" description=""/>
+	<buff type="BUFF" id="1307" lvl="3" description=""/>
+	<buff type="BUFF" id="1311" lvl="6" description=""/>
+	<buff type="BUFF" id="1397" lvl="3" description=""/>
+	<buff type="BUFF" id="1232" lvl="3" description="Reflect 20% of melee range physical damage back on the attacker"/>
+	<buff type="BUFF" id="1238" lvl="3" description="Reflect 20% of melee range physical damage back on the attacker"/>
+	<buff type="SONG" id="264" lvl="1" description=""/>
+	<buff type="SONG" id="265" lvl="1" description=""/>
+	<buff type="SONG" id="266" lvl="1" description=""/>
+	<buff type="SONG" id="267" lvl="1" description=""/>
+	<buff type="SONG" id="268" lvl="1" description=""/>
+	<buff type="SONG" id="269" lvl="1" description=""/>
+	<buff type="SONG" id="270" lvl="1" description=""/>
+	<buff type="SONG" id="304" lvl="1" description=""/>
+	<buff type="SONG" id="305" lvl="1" description=""/>
+	<buff type="SONG" id="306" lvl="1" description=""/>
+	<buff type="SONG" id="308" lvl="1" description=""/>
+	<buff type="SONG" id="349" lvl="1" description=""/>
+	<buff type="SONG" id="363" lvl="1" description=""/>
+	<buff type="SONG" id="364" lvl="1" description=""/>
+	<buff type="DANCE" id="271" lvl="1" description=""/>
+	<buff type="DANCE" id="272" lvl="1" description=""/>
+	<buff type="DANCE" id="273" lvl="1" description=""/>
+	<buff type="DANCE" id="274" lvl="1" description=""/>
+	<buff type="DANCE" id="275" lvl="1" description=""/>
+	<buff type="DANCE" id="276" lvl="1" description=""/>
+	<buff type="DANCE" id="277" lvl="1" description=""/>
+	<buff type="DANCE" id="307" lvl="1" description=""/>
+	<buff type="DANCE" id="309" lvl="1" description=""/>
+	<buff type="DANCE" id="310" lvl="1" description=""/>
+	<buff type="DANCE" id="311" lvl="1" description=""/>
+	<buff type="DANCE" id="365" lvl="1" description=""/>
+	<buff type="DANCE" id="366" lvl="1" description=""/>
+	<buff type="CUBIC" id="67" lvl="7" description=""/>
+	<buff type="CUBIC" id="10" lvl="8" description=""/>
+	<buff type="CUBIC" id="22" lvl="7" description=""/>
+	<buff type="CUBIC" id="33" lvl="8" description=""/>
+	<buff type="CUBIC" id="278" lvl="6" description=""/>
+	<buff type="CUBIC" id="449" lvl="4" description=""/>
+	<buff type="CUBIC" id="1279" lvl="9" description="Paralyzes an enemy"/>
+	<buff type="CUBIC" id="1280" lvl="9" description="Inflicts continuous damage to an enemy"/>
+	<buff type="CUBIC" id="1281" lvl="9" description="Stuns a targeted enemy"/>
+	<buff type="CUBIC" id="1328" lvl="8" description=""/>
+	<buff type="CUBIC" id="1329" lvl="9" description=""/>
+	<buff type="CUBIC" id="1330" lvl="8" description=""/>
+	<buff type="SPECIAL" id="1062" lvl="2" description="P.Atk. +8%, M.Atk. +16%, P.Def. -8%, M.Def. -16%, Evasion -4, Speed +8, Atk. Spd +8%, Casting Spd. +8%"/>
+	<buff type="SPECIAL" id="1355" lvl="1" description=""/>
+	<buff type="SPECIAL" id="1356" lvl="1" description=""/>
+	<buff type="SPECIAL" id="1357" lvl="1" description=""/>
+	<buff type="SPECIAL" id="1363" lvl="1" description=""/>
+	<buff type="SPECIAL" id="1413" lvl="1" description=""/>
+	<buff type="SPECIAL" id="4699" lvl="13" description=""/>
+	<buff type="SPECIAL" id="4700" lvl="13" description=""/>
+	<buff type="SPECIAL" id="4702" lvl="13" description=""/>
+	<buff type="SPECIAL" id="4703" lvl="13" description=""/>
+	<buff type="SPECIAL" id="1323" lvl="1" description=""/>
+	<buff type="SPECIAL" id="1388" lvl="3" description=""/>
+	<buff type="SPECIAL" id="1389" lvl="3" description=""/>
+	<buff type="RESIST" id="1032" lvl="3" description="Resistance to Bleed attribute +50%"/>
+	<buff type="RESIST" id="1033" lvl="3" description="Resistance to Poison attribute +50%"/>
+	<buff type="RESIST" id="1035" lvl="4" description="Resistance to Hold, Sleep, Derangement +80%"/>
+	<buff type="RESIST" id="1078" lvl="6" description="Chance of casting interruption -53%"/>
+	<buff type="RESIST" id="1182" lvl="3" description=""/>
+	<buff type="RESIST" id="1189" lvl="3" description=""/>
+	<buff type="RESIST" id="1191" lvl="3" description=""/>
+	<buff type="RESIST" id="1259" lvl="4" description="Resistance to Shock attribute +40%"/>
+	<buff type="RESIST" id="1352" lvl="1" description=""/>
+	<buff type="RESIST" id="1353" lvl="1" description=""/>
+	<buff type="RESIST" id="1354" lvl="1" description=""/>
+	<buff type="RESIST" id="1392" lvl="3" description=""/>
+	<buff type="RESIST" id="1393" lvl="3" description=""/>
+	<buff type="CHANT" id="1003" lvl="3" description="P.Atk. +15%"/>
+	<buff type="CHANT" id="1004" lvl="3" description="Casting Spd +30%"/>
+	<buff type="CHANT" id="1005" lvl="3" description="P.Def. +15%"/>
+	<buff type="CHANT" id="1008" lvl="3" description="M. Def. +30%"/>
+	<buff type="CHANT" id="1249" lvl="3" description="Accuracy +4"/>
+	<buff type="CHANT" id="1250" lvl="3" description="Shield Defense +30%"/>
+	<buff type="CHANT" id="1260" lvl="3" description="Evasion +2"/>
+	<buff type="CHANT" id="1261" lvl="2" description=""/>
+	<buff type="CHANT" id="1282" lvl="2" description=""/>
+	<buff type="CHANT" id="1364" lvl="1" description=""/>
+	<buff type="CHANT" id="1365" lvl="1" description=""/>
+	<buff type="CHANT" id="1415" lvl="1" description=""/>
+	<buff type="CHANT" id="1416" lvl="1" description=""/>
+	<buff type="CHANT" id="1002" lvl="3" description="Casting Spd. +30%"/>
+	<buff type="CHANT" id="1006" lvl="3" description="M.Def. +30%"/>
+	<buff type="CHANT" id="1007" lvl="3" description="P.Atk. +15%"/>
+	<buff type="CHANT" id="1009" lvl="3" description="P.Def. +15%"/>
+	<buff type="CHANT" id="1251" lvl="2" description=""/>
+	<buff type="CHANT" id="1252" lvl="3" description=""/>
+	<buff type="CHANT" id="1253" lvl="3" description=""/>
+	<buff type="CHANT" id="1284" lvl="3" description=""/>
+	<buff type="CHANT" id="1308" lvl="3" description=""/>
+	<buff type="CHANT" id="1309" lvl="3" description=""/>
+	<buff type="CHANT" id="1310" lvl="4" description=""/>
+	<buff type="CHANT" id="1362" lvl="1" description=""/>
+</list>

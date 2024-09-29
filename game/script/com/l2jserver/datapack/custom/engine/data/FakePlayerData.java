@@ -11,7 +11,7 @@
  * Contact us with any questions by the media
  * provided by our web or email marco.faccio@gmail.com
  */
-package com.l2jserver.engine.data;
+package com.l2jserver.datapack.custom.engine.data;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -23,8 +23,8 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 
-import main.holders.PlayerHolder;
-import net.sf.l2j.commons.random.Rnd;
+import com.l2jserver.commons.util.Rnd;
+import com.l2jserver.datapack.custom.engine.holders.PlayerHolder;
 
 /**
  * @author fissban

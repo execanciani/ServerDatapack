@@ -11,16 +11,12 @@
  * Contact us with any questions by the media
  * provided by our web or email marco.faccio@gmail.com
  */
-package main.engine.events;
+package com.l2jserver.datapack.custom.engine.mods.events;
 
-import main.data.ConfigData;
-import main.engine.AbstractMods;
-import main.enums.ExpSpType;
-import main.enums.ItemDropType;
-import main.instances.NpcDropsInstance;
-import main.instances.NpcExpInstance;
-import net.sf.l2j.gameserver.model.actor.Attackable;
-import net.sf.l2j.gameserver.model.actor.Player;
+import com.l2jserver.datapack.custom.engine.data.ConfigData;
+import com.l2jserver.datapack.custom.engine.mods.AbstractMods;
+import com.l2jserver.gameserver.model.actor.L2Attackable;
+import com.l2jserver.gameserver.model.actor.L2Playable;
 
 /**
  * @author fissban
@@ -39,7 +35,7 @@ public class BonusWeekend extends AbstractMods
 	}
 	
 	@Override
-	public void onNpcExpSp(Player killer, Attackable npc, NpcExpInstance instance)
+	public void onNpcExpSp(L2Playable killer, L2Attackable npc, NpcExpInstance instance)
 	{
 		// ExpSpBonusHolder (bonusType, amountBonus)
 		// Example: 1.1 -> 110%

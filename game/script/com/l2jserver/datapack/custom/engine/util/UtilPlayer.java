@@ -11,7 +11,7 @@
  * Contact us with any questions by the media
  * provided by our web or email marco.faccio@gmail.com
  */
-package main.util;
+package com.l2jserver.datapack.custom.engine.util;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
@@ -21,19 +21,7 @@ import java.util.Base64;
 import java.util.List;
 import java.util.concurrent.locks.ReentrantLock;
 
-import net.sf.l2j.commons.pool.ConnectionPool;
-import net.sf.l2j.commons.random.Rnd;
-import net.sf.l2j.gameserver.LoginServerThread;
-import net.sf.l2j.gameserver.enums.actors.Sex;
-import net.sf.l2j.gameserver.idfactory.IdFactory;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.template.PlayerTemplate;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.item.kind.Item;
-import net.sf.l2j.gameserver.network.GameClient;
-import net.sf.l2j.gameserver.network.GameClient.GameClientState;
-import net.sf.l2j.gameserver.network.SessionKey;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 
 /**
  * @author fissban
@@ -45,7 +33,7 @@ public class UtilPlayer
 	
 	private static final ReentrantLock _locker = new ReentrantLock();
 	
-	public static Player createPlayer(Player admin, String playerName, String accountName, PlayerTemplate template, int lvl, Sex sex, byte hairStyle, byte face, List<Integer> items, int offSet)
+	public static L2PcInstance createPlayer(L2PcInstance admin, String playerName, String accountName, PlayerTemplate template, int lvl, Sex sex, byte hairStyle, byte face, List<Integer> items, int offSet)
 	{
 		
 		_locker.lock();

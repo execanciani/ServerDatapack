@@ -1,4 +1,4 @@
-package com.l2jserver.datapack.custom.enginemods.util;
+package com.l2jserver.datapack.custom.engine.util;
 
 import com.l2jserver.datapack.handlers.effecthandlers.instant.SummonCubic;
 import com.l2jserver.gameserver.model.effects.AbstractEffect;

@@ -1,4 +1,4 @@
-package com.l2jserver.datapack.custom.enginemods.holders;
+package com.l2jserver.datapack.custom.engine.holders;
 
 import com.l2jserver.gameserver.model.items.L2Item;
 

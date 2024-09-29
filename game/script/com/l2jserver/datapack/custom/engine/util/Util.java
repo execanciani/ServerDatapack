@@ -11,7 +11,7 @@
  * Contact us with any questions by the media
  * provided by our web or email marco.faccio@gmail.com
  */
-package com.l2jserver.datapack.custom.enginemods.util;
+package com.l2jserver.datapack.custom.engine.util;
 
 import java.io.FileWriter;
 import java.io.IOException;

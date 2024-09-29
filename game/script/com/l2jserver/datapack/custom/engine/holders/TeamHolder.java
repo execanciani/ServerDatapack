@@ -1,10 +1,10 @@
-package com.l2jserver.datapack.custom.enginemods.holders;
+package com.l2jserver.datapack.custom.engine.holders;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.l2jserver.datapack.custom.enginemods.data.PlayerData;
-import com.l2jserver.datapack.custom.enginemods.enums.TeamType;
+import com.l2jserver.datapack.custom.engine.data.PlayerData;
+import com.l2jserver.datapack.custom.engine.enums.TeamType;
 import com.l2jserver.gameserver.datatables.SkillData;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 

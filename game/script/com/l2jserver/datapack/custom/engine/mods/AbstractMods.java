@@ -11,7 +11,7 @@
 // * Contact us with any questions by the media
 // * provided by our web or email marco.faccio@gmail.com
 // */
-package com.l2jserver.datapack.custom.enginemods.mods;
+package com.l2jserver.datapack.custom.engine.mods;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -25,11 +25,11 @@ import java.util.concurrent.Future;
 import java.util.logging.Logger;
 
 import com.l2jserver.datapack.ai.npc.AbstractNpcAI;
-import com.l2jserver.datapack.custom.enginemods.data.ModsData;
-import com.l2jserver.datapack.custom.enginemods.enums.EngineStateType;
-import com.l2jserver.datapack.custom.enginemods.enums.WeekDayType;
-import com.l2jserver.datapack.custom.enginemods.holders.ModTimerHolder;
-import com.l2jserver.datapack.custom.enginemods.util.builders.html.HtmlBuilder;
+import com.l2jserver.datapack.custom.engine.data.ModsData;
+import com.l2jserver.datapack.custom.engine.enums.EngineStateType;
+import com.l2jserver.datapack.custom.engine.enums.WeekDayType;
+import com.l2jserver.datapack.custom.engine.holders.ModTimerHolder;
+import com.l2jserver.datapack.custom.engine.util.builders.html.HtmlBuilder;
 import com.l2jserver.gameserver.ThreadPoolManager;
 import com.l2jserver.gameserver.model.Location;
 import com.l2jserver.gameserver.model.actor.L2Npc;

@@ -11,7 +11,7 @@
  * Contact us with any questions by the media
  * provided by our web or email marco.faccio@gmail.com
  */
-package com.l2jserver.datapack.custom.enginemods.data;
+package com.l2jserver.datapack.custom.engine.data;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -23,10 +23,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.logging.Logger;
 
-import com.l2jserver.datapack.custom.enginemods.enums.WeekDayType;
-import com.l2jserver.datapack.custom.enginemods.holders.IntIntHolder;
-import com.l2jserver.datapack.custom.enginemods.holders.RewardHolder;
-import com.l2jserver.datapack.custom.enginemods.util.UtilProperties;
+import com.l2jserver.datapack.custom.engine.enums.WeekDayType;
 import com.l2jserver.gameserver.model.Location;
 import com.l2jserver.gameserver.model.stats.Stats;
 

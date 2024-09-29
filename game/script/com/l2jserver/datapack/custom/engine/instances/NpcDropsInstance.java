@@ -11,26 +11,15 @@
  * Contact us with any questions by the media
  * provided by our web or email marco.faccio@gmail.com
  */
-package main.instances;
+package com.l2jserver.datapack.custom.engine.instances;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import main.enums.ItemDropType;
-import main.holders.DropBonusHolder;
-import net.sf.l2j.Config;
-import net.sf.l2j.commons.random.Rnd;
-import net.sf.l2j.gameserver.data.manager.CursedWeaponManager;
-import net.sf.l2j.gameserver.data.xml.HerbDropData;
-import net.sf.l2j.gameserver.model.actor.Attackable;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.holder.IntIntHolder;
-import net.sf.l2j.gameserver.model.item.DropCategory;
-import net.sf.l2j.gameserver.model.item.DropData;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.l2jserver.datapack.custom.engine.enums.ItemDropType;
+import com.l2jserver.gameserver.model.L2Crest;
+import com.l2jserver.gameserver.model.actor.L2Attackable;
+import com.l2jserver.gameserver.model.actor.L2Character;
 
 /**
  * @author fissban
@@ -68,7 +57,7 @@ public class NpcDropsInstance
 		return false;
 	}
 	
-	public void init(Attackable npc, Creature mainDamageDealer)
+	public void init(L2Attackable npc, L2Character mainDamageDealer)
 	{
 		// -------------------------------------------------------------------------------------------------------------------
 		

@@ -11,9 +11,9 @@
  * Contact us with any questions by the media
  * provided by our web or email marco.faccio@gmail.com
  */
-package main.holders;
+package com.l2jserver.datapack.custom.engine.holders;
 
-import main.enums.ExpSpType;
+import com.l2jserver.datapack.custom.engine.enums.ExpSpType;
 
 /**
  * @author fissban

@@ -1,0 +1,24 @@
+[INFO] 2024-09-29 09:48:20 GameServer: ------------------------------------------------=[ Database ]
+[INFO] 2024-09-29 09:48:20 GameServer: -----------------------------------=[ Network Configuration ]
+[INFO] 2024-09-29 09:48:20 IPConfigData: Using automatic network configuration.
+[INFO] 2024-09-29 09:48:21 IPConfigData: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[INFO] 2024-09-29 09:48:21 IPConfigData: Adding new subnet: 192.168.0.0/24 address: 192.168.0.19
+[INFO] 2024-09-29 09:48:21 IPConfigData: Adding new subnet: 0.0.0.0/0 address: 186.190.200.3
+[INFO] 2024-09-29 09:48:21 HikariDataSource: HikariPool-1 - Starting...
+[INFO] 2024-09-29 09:48:21 HikariPool: HikariPool-1 - Added connection org.mariadb.jdbc.Connection@52eacb4b
+[INFO] 2024-09-29 09:48:21 HikariDataSource: HikariPool-1 - Start completed.
+[INFO] 2024-09-29 09:48:22 IdFactory: Updated characters online status.
+[INFO] 2024-09-29 09:48:22 IdFactory: Cleaned 0 elements from database in 0s.
+[INFO] 2024-09-29 09:48:22 IdFactory: Cleaned 0 expired timestamps from database.
+[INFO] 2024-09-29 09:48:22 BitSetIDFactory: 102912 Ids available.
+[INFO] 2024-09-29 09:48:22 GameServer: ---------------------------------------------------=[ World ]
+[INFO] 2024-09-29 09:48:22 InstanceManager: Multiverse Instance created.
+[INFO] 2024-09-29 09:48:22 InstanceManager: Universe Instance created.
+[INFO] 2024-09-29 09:48:22 InstanceManager: Loaded 160 instance names.
+[INFO] 2024-09-29 09:48:22 L2World: 128 by 136 world region grid set up.
+[INFO] 2024-09-29 09:48:22 MapRegionManager: Loaded 57 map regions.
+[INFO] 2024-09-29 09:48:22 GlobalVariablesManager: Loaded 7 variables.
+[INFO] 2024-09-29 09:48:22 GameServer: ----------------------------------------------------=[ Data ]
+[INFO] 2024-09-29 09:48:22 CategoryData: Loaded 124 Categories.
+[INFO] 2024-09-29 09:48:22 SecondaryAuthData: Loaded 328 forbidden passwords.
+[INFO] 2024-09-29 09:48:22 GameServer: -------------------------------------------------=[ Effects ]

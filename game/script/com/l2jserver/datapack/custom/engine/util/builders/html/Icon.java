@@ -11,7 +11,7 @@
  * Contact us with any questions by the media
  * provided by our web or email marco.faccio@gmail.com
  */
-package main.util.builders.html;
+package com.l2jserver.datapack.custom.engine.util.builders.html;
 
 /**
  * @author fissban

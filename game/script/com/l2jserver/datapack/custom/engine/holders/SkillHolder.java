@@ -1,7 +1,7 @@
-package main.holders;
+package com.l2jserver.datapack.custom.engine.holders;
 
-import main.data.SkillData;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.l2jserver.gameserver.datatables.SkillData;
+import com.l2jserver.gameserver.model.skills.Skill;
 
 public class SkillHolder
 {
@@ -47,8 +47,8 @@ public class SkillHolder
 		return _seconds;
 	}
 	
-	public L2Skill getL2Skill()
+	public Skill getL2Skill()
 	{
-		return SkillData.getL2Skill(_id, _level);
+		return SkillData.getInstance().getSkill(_id, _level);
 	}
 }

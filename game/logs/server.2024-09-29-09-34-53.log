@@ -1,0 +1,26 @@
+[INFO] 2024-09-29 09:34:53 GameServer: ------------------------------------------------=[ Database ]
+[INFO] 2024-09-29 09:34:53 GameServer: -----------------------------------=[ Network Configuration ]
+[INFO] 2024-09-29 09:34:53 IPConfigData: Using automatic network configuration.
+[INFO] 2024-09-29 09:34:53 IPConfigData: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[INFO] 2024-09-29 09:34:53 IPConfigData: Adding new subnet: 192.168.0.0/24 address: 192.168.0.19
+[INFO] 2024-09-29 09:34:53 IPConfigData: Adding new subnet: 0.0.0.0/0 address: 186.190.200.3
+[INFO] 2024-09-29 09:34:54 HikariDataSource: HikariPool-1 - Starting...
+[INFO] 2024-09-29 09:34:54 HikariPool: HikariPool-1 - Added connection org.mariadb.jdbc.Connection@32f61a31
+[INFO] 2024-09-29 09:34:54 HikariDataSource: HikariPool-1 - Start completed.
+[INFO] 2024-09-29 09:34:54 IdFactory: Updated characters online status.
+[INFO] 2024-09-29 09:34:54 IdFactory: Cleaned 0 elements from database in 0s.
+[INFO] 2024-09-29 09:34:54 IdFactory: Cleaned 0 expired timestamps from database.
+[INFO] 2024-09-29 09:34:54 BitSetIDFactory: 102912 Ids available.
+[INFO] 2024-09-29 09:34:54 GameServer: ---------------------------------------------------=[ World ]
+[INFO] 2024-09-29 09:34:54 InstanceManager: Multiverse Instance created.
+[INFO] 2024-09-29 09:34:54 InstanceManager: Universe Instance created.
+[INFO] 2024-09-29 09:34:54 InstanceManager: Loaded 160 instance names.
+[INFO] 2024-09-29 09:34:54 L2World: 128 by 136 world region grid set up.
+[INFO] 2024-09-29 09:34:54 MapRegionManager: Loaded 57 map regions.
+[INFO] 2024-09-29 09:34:54 GlobalVariablesManager: Loaded 7 variables.
+[INFO] 2024-09-29 09:34:54 GameServer: ----------------------------------------------------=[ Data ]
+[INFO] 2024-09-29 09:34:54 CategoryData: Loaded 124 Categories.
+[INFO] 2024-09-29 09:34:54 SecondaryAuthData: Loaded 328 forbidden passwords.
+[INFO] 2024-09-29 09:34:54 GameServer: -------------------------------------------------=[ Effects ]
+[INFO] 2024-09-29 09:34:56 LoginServerThread: Connecting to login server on 127.0.0.1:9014
+[WARN] 2024-09-29 09:34:56 LoginServerThread: LoginServer not avaible, trying to reconnect...

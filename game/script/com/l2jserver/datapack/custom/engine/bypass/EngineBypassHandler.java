@@ -1,4 +1,4 @@
-package com.l2jserver.datapack.custom.enginemods.bypass;
+package com.l2jserver.datapack.custom.engine.bypass;
 
 import com.l2jserver.gameserver.handler.IBypassHandler;
 import com.l2jserver.gameserver.model.actor.L2Character;

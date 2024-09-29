@@ -1,4 +1,4 @@
-package main.holders;
+package com.l2jserver.datapack.custom.engine.holders;
 
 public class DonationShopHolder
 {

@@ -1,4 +1,4 @@
-package com.l2jserver.engine.data;
+package com.l2jserver.datapack.custom.engine.data;
 
 import java.io.File;
 import java.util.HashMap;
@@ -9,7 +9,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 
-import main.holders.DonationShopHolder;
+import com.l2jserver.datapack.custom.engine.holders.DonationShopHolder;
 
 public class DonationShopData
 {

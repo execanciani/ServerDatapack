@@ -11,7 +11,7 @@
  * Contact us with any questions by the media
  * provided by our web or email marco.faccio@gmail.com
  */
-package com.l2jserver.engine.data;
+package com.l2jserver.datapack.custom.engine.data;
 
 import java.io.File;
 import java.util.Collection;
@@ -20,10 +20,9 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.Logger;
 
-import main.holders.SkillHolder;
-import net.sf.l2j.gameserver.data.DocumentSkill;
-import net.sf.l2j.gameserver.data.SkillTable;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.l2jserver.datapack.custom.engine.holders.SkillHolder;
+import com.l2jserver.gameserver.engines.skills.DocumentSkill;
+import com.l2jserver.gameserver.model.skills.Skill;
 
 /**
  * @author fissban
@@ -51,7 +50,7 @@ public class SkillData
 				DocumentSkill doc = new DocumentSkill(file);
 				doc.parse();
 				
-				for (L2Skill skill : doc.getSkills())
+				for (Skill skill : doc.getSkills())
 				{
 					SkillHolder sh = new SkillHolder(skill.getId(),skill.getLevel());
 					_skills.put(sh.getId(), sh);
@@ -168,8 +167,8 @@ public class SkillData
 		return "Icon.skill" + formato;
 	}
 	
-	public static L2Skill getL2Skill(int id, int level)
+	public static Skill getL2Skill(int id, int level)
 	{
-		return SkillTable.getInstance().getInfo(id, level);
+		return SkillData.getL2Skill(id, level);
 	}
 }

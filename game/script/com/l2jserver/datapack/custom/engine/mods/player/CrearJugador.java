@@ -1,21 +1,21 @@
-package com.l2jserver.datapack.custom.enginemods.mods.player;
+package com.l2jserver.datapack.custom.engine.mods.player;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.l2jserver.datapack.custom.enginemods.holders.ItemHolder;
-import com.l2jserver.datapack.custom.enginemods.mods.AbstractMods;
+import com.l2jserver.datapack.custom.engine.holders.ItemHolder;
+import com.l2jserver.datapack.custom.engine.mods.AbstractMods;
 import com.l2jserver.gameserver.datatables.ItemTable;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.events.EventType;
 import com.l2jserver.gameserver.model.events.ListenerRegisterType;
 import com.l2jserver.gameserver.model.events.annotations.RegisterEvent;
 import com.l2jserver.gameserver.model.events.annotations.RegisterType;
-import com.l2jserver.gameserver.model.events.impl.character.player.OnPlayerCreate;
-import com.l2jserver.gameserver.model.events.impl.character.player.OnPlayerDelete;
-import com.l2jserver.gameserver.model.events.impl.character.player.OnPlayerLogin;
+import com.l2jserver.gameserver.model.events.impl.character.player.PlayerCreate;
+import com.l2jserver.gameserver.model.events.impl.character.player.PlayerDelete;
+import com.l2jserver.gameserver.model.events.impl.character.player.PlayerLogin;
 
-public class InitiateCharacter extends AbstractMods
+public class CrearJugador extends AbstractMods
 {	
 	private final List<ItemHolder> _soulshots = new ArrayList<>();
 	{
@@ -25,7 +25,7 @@ public class InitiateCharacter extends AbstractMods
 		_soulshots.add(new ItemHolder(ItemTable.getInstance().getTemplate(3952), 10000));
 	}
 	
-	public InitiateCharacter()
+	public CrearJugador()
 	{
 		LOG.info("[InitiateCharacter]: Mod Loaded");
 	}
@@ -35,11 +35,11 @@ public class InitiateCharacter extends AbstractMods
 		
 	}
 
-	@RegisterEvent(EventType.ON_PLAYER_CREATE)
+	@RegisterEvent(EventType.PLAYER_CREATE)
 	@RegisterType(ListenerRegisterType.GLOBAL_PLAYERS)
-	public void playerCreate(OnPlayerCreate event)
+	public void playerCreate(PlayerCreate event)
 	{	
-		L2PcInstance player = event.getActiveChar();
+		L2PcInstance player = event.player();
 		
 		if (player == null)
 			return;
@@ -60,17 +60,19 @@ public class InitiateCharacter extends AbstractMods
 		//setMaxLvl(event.getActiveChar());
 	}
 	
-	@RegisterEvent(EventType.ON_PLAYER_LOGIN)
+	@RegisterEvent(EventType.PLAYER_LOGIN)
 	@RegisterType(ListenerRegisterType.GLOBAL_PLAYERS)
-	public void onPlayerLogin(OnPlayerLogin event)
+	public void onPlayerLogin(PlayerLogin event)
 	{
-		L2PcInstance player = event.getActiveChar();
+		L2PcInstance player = event.player();
 		if (player == null)
-			return
+			return;
+				
 		//check si es el primer login
 		String first_login = getValueDB(player, "first login");
 		if (first_login == null)
 			return;
+		
 		if (first_login.equalsIgnoreCase("true"))
 		{			
 			//give soulshots
@@ -83,11 +85,11 @@ public class InitiateCharacter extends AbstractMods
 		}	
 	}
 	
-	@RegisterEvent(EventType.ON_PLAYER_DELETE)
+	@RegisterEvent(EventType.PLAYER_DELETE)
 	@RegisterType(ListenerRegisterType.GLOBAL_PLAYERS)
-	public void onPlayerDelete(OnPlayerDelete event)
+	public void onPlayerDelete(PlayerDelete event)
 	{
-		int playerId = event.getObjectId();
+		int playerId = event.objectId();
 		if (playerId <= 0)
 			return;
 		//remove player value obj id
@@ -95,6 +97,6 @@ public class InitiateCharacter extends AbstractMods
 	}
 	
 	public static void main(String[] args) {
-		new InitiateCharacter();
+		new CrearJugador();
 	}
 }

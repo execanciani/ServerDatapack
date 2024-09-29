@@ -1,4 +1,4 @@
-package com.l2jserver.datapack.custom.enginemods.enums;
+package com.l2jserver.datapack.custom.engine.enums;
 
 /*
  * L2J_EngineMods

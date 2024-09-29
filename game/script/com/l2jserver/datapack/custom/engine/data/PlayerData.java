@@ -11,7 +11,7 @@
  * Contact us with any questions by the media
  * provided by our web or email marco.faccio@gmail.com
  */
-package com.l2jserver.datapack.custom.enginemods.data;
+package com.l2jserver.datapack.custom.engine.data;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -22,7 +22,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.Logger;
 
 import com.l2jserver.commons.database.ConnectionFactory;
-import com.l2jserver.datapack.custom.enginemods.holders.PlayerHolder;
+import com.l2jserver.datapack.custom.engine.holders.PlayerHolder;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 
 /**

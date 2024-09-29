@@ -1,7 +1,7 @@
-package main.holders;
+package com.l2jserver.datapack.custom.engine.holders;
 
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Npc;
+import com.l2jserver.gameserver.model.L2World;
+import com.l2jserver.gameserver.model.actor.L2Npc;
 
 public class NpcHolder {
 
@@ -46,13 +46,13 @@ public class NpcHolder {
 		return _team;
 	}
 	
-	public Npc getNpc(Npc npc)
+	public L2Npc getNpc(L2Npc npc)
 	{
-		return	(Npc) World.getInstance().getObject(npc.getObjectId());
+		return	(L2Npc) L2World.getInstance().findObject(npc.getObjectId());
 	}
 	
-	public Npc getNpc(int objId)
+	public L2Npc getNpc(int objId)
 	{
-		return (Npc) World.getInstance().getObject(objId);
+		return (L2Npc) L2World.getInstance().findObject(objId);
 	}
 }

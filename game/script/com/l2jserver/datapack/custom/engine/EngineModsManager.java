@@ -1,10 +1,10 @@
-package com.l2jserver.datapack.custom.enginemods;
+package com.l2jserver.datapack.custom.engine;
 
-import com.l2jserver.datapack.custom.enginemods.bypass.EngineBypassHandler;
-import com.l2jserver.datapack.custom.enginemods.data.ModsData;
-import com.l2jserver.datapack.custom.enginemods.data.PlayerData;
-import com.l2jserver.datapack.custom.enginemods.data.SchemeBuffData;
-import com.l2jserver.datapack.custom.enginemods.mods.AbstractMods;
+import com.l2jserver.datapack.custom.engine.bypass.EngineBypassHandler;
+import com.l2jserver.datapack.custom.engine.data.ModsData;
+import com.l2jserver.datapack.custom.engine.data.PlayerData;
+import com.l2jserver.datapack.custom.engine.data.SchemeBuffData;
+import com.l2jserver.datapack.custom.engine.mods.AbstractMods;
 import com.l2jserver.gameserver.handler.BypassHandler;
 
 public class EngineModsManager extends AbstractMods

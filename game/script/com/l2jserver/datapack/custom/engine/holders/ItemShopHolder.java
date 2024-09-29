@@ -1,8 +1,8 @@
-package com.l2jserver.datapack.custom.enginemods.holders;
+package com.l2jserver.datapack.custom.engine.holders;
 
 import java.util.Map;
 
-import com.l2jserver.datapack.custom.enginemods.enums.ItemType;
+import com.l2jserver.datapack.custom.engine.enums.ItemType;
 
 public class ItemShopHolder
 {

@@ -11,9 +11,9 @@
  * Contact us with any questions by the media
  * provided by our web or email marco.faccio@gmail.com
  */
-package com.l2jserver.datapack.custom.enginemods.holders;
+package com.l2jserver.datapack.custom.engine.holders;
 
-import com.l2jserver.datapack.custom.enginemods.enums.BuffType;
+import com.l2jserver.datapack.custom.engine.enums.BuffType;
 import com.l2jserver.gameserver.datatables.SkillData;
 import com.l2jserver.gameserver.model.skills.Skill;
 

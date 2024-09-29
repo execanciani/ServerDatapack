@@ -1,0 +1,54 @@
+[INFO] 2024-09-29 09:25:10 GameServer: ------------------------------------------------=[ Database ]
+[INFO] 2024-09-29 09:25:10 GameServer: -----------------------------------=[ Network Configuration ]
+[INFO] 2024-09-29 09:25:10 IPConfigData: Using automatic network configuration.
+[INFO] 2024-09-29 09:25:11 IPConfigData: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[INFO] 2024-09-29 09:25:11 IPConfigData: Adding new subnet: 192.168.0.0/24 address: 192.168.0.19
+[INFO] 2024-09-29 09:25:11 IPConfigData: Adding new subnet: 0.0.0.0/0 address: 186.190.200.3
+[INFO] 2024-09-29 09:25:11 HikariDataSource: HikariPool-1 - Starting...
+[INFO] 2024-09-29 09:25:11 HikariPool: HikariPool-1 - Added connection org.mariadb.jdbc.Connection@32f61a31
+[INFO] 2024-09-29 09:25:11 HikariDataSource: HikariPool-1 - Start completed.
+[INFO] 2024-09-29 09:25:11 IdFactory: Updated characters online status.
+[INFO] 2024-09-29 09:25:11 IdFactory: Cleaned 0 elements from database in 0s.
+[INFO] 2024-09-29 09:25:11 IdFactory: Cleaned 0 expired timestamps from database.
+[INFO] 2024-09-29 09:25:11 BitSetIDFactory: 102912 Ids available.
+[INFO] 2024-09-29 09:25:11 GameServer: ---------------------------------------------------=[ World ]
+[INFO] 2024-09-29 09:25:11 InstanceManager: Multiverse Instance created.
+[INFO] 2024-09-29 09:25:11 InstanceManager: Universe Instance created.
+[INFO] 2024-09-29 09:25:12 InstanceManager: Loaded 160 instance names.
+[INFO] 2024-09-29 09:25:12 L2World: 128 by 136 world region grid set up.
+[INFO] 2024-09-29 09:25:12 MapRegionManager: Loaded 57 map regions.
+[INFO] 2024-09-29 09:25:12 GlobalVariablesManager: Loaded 7 variables.
+[INFO] 2024-09-29 09:25:12 GameServer: ----------------------------------------------------=[ Data ]
+[INFO] 2024-09-29 09:25:12 CategoryData: Loaded 124 Categories.
+[INFO] 2024-09-29 09:25:12 SecondaryAuthData: Loaded 328 forbidden passwords.
+[INFO] 2024-09-29 09:25:12 GameServer: -------------------------------------------------=[ Effects ]
+[WARN] 2024-09-29 09:25:13 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-09-29 09:25:13 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-09-29 09:25:13 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-09-29 09:25:13 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-09-29 09:25:14 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-09-29 09:25:14 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-09-29 09:25:14 ErrorPacket: Error: 1040-HY000: Too many connections
+[INFO] 2024-09-29 09:25:14 EffectMasterHandler: Loaded 170 effect handlers.
+[INFO] 2024-09-29 09:25:14 GameServer: ------------------------------------=[ Enchant Skill Groups ]
+[INFO] 2024-09-29 09:25:14 EnchantSkillGroupsData: Loaded 4 groups and 90 routes.
+[INFO] 2024-09-29 09:25:14 GameServer: ---------------------------------------------=[ Skill Trees ]
+[WARN] 2024-09-29 09:25:15 ErrorPacket: Error: 1040-HY000: Too many connections
+[INFO] 2024-09-29 09:25:15 SkillTreesData: Loaded 17176 Class Skills for 103 Class Skill Trees.
+[INFO] 2024-09-29 09:25:15 SkillTreesData: Loaded 76 Sub-Class Skills.
+[INFO] 2024-09-29 09:25:15 SkillTreesData: Loaded 77 Transfer Skills for 3 Transfer Skill Trees.
+[INFO] 2024-09-29 09:25:15 SkillTreesData: Loaded 117 Fishing Skills, 8 Dwarven only Fishing Skills.
+[INFO] 2024-09-29 09:25:15 SkillTreesData: Loaded 3 Collect Skills.
+[INFO] 2024-09-29 09:25:15 SkillTreesData: Loaded 74 Pledge Skills, 44 for Pledge and 30 Residential.
+[INFO] 2024-09-29 09:25:15 SkillTreesData: Loaded 18 Sub-Pledge Skills.
+[INFO] 2024-09-29 09:25:15 SkillTreesData: Loaded 32 Transform Skills.
+[INFO] 2024-09-29 09:25:15 SkillTreesData: Loaded 8 Noble Skills.
+[INFO] 2024-09-29 09:25:15 SkillTreesData: Loaded 5 Hero Skills.
+[INFO] 2024-09-29 09:25:15 SkillTreesData: Loaded 46 Game Master Skills.
+[INFO] 2024-09-29 09:25:15 SkillTreesData: Loaded 46 Game Master Aura Skills.
+[INFO] 2024-09-29 09:25:15 GameServer: --------------------------------------------------=[ Skills ]
+[WARN] 2024-09-29 09:25:16 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-09-29 09:25:19 ErrorPacket: Error: 1040-HY000: Too many connections
+[INFO] 2024-09-29 09:25:22 DocumentEngine: Loaded 65973 skill templates from XML files.
+[INFO] 2024-09-29 09:25:22 SummonSkillsTable: Loaded 1891 summon skills.
+[INFO] 2024-09-29 09:25:22 GameServer: ---------------------------------------------------=[ Items ]

@@ -1,14 +1,14 @@
-package com.l2jserver.engine.data;
+package com.l2jserver.datapack.custom.engine.data;
 
 import java.util.Collection;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.Logger;
 
-import main.holders.NpcHolder;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Npc;
+import com.l2jserver.datapack.custom.engine.holders.NpcHolder;
+import com.l2jserver.gameserver.model.L2Object;
+import com.l2jserver.gameserver.model.L2World;
+import com.l2jserver.gameserver.model.actor.L2Npc;
 
 public class NpcData {
 
@@ -27,9 +27,9 @@ public class NpcData {
 		_npcs.clear();
 		
 		
-		for (WorldObject n : World.getInstance().getObjects())
+		for (L2Object n : L2World.getInstance().getVisibleObjects())
 		{
-			if (n instanceof Npc)
+			if (n instanceof L2Npc)
 			{
 				_npcs.put(n.getObjectId(), new NpcHolder(n.getObjectId(),n.getName()));
 			}
@@ -37,7 +37,7 @@ public class NpcData {
 		LOG.info(NpcData.class.getSimpleName() + " load " + _npcs.size() + " npcs");
 	}
 	
-	public static synchronized NpcHolder get(Npc npc)
+	public static synchronized NpcHolder get(L2Npc npc)
 	{
 		return _npcs.get(npc.getObjectId());
 	}

@@ -1,4 +1,4 @@
-package com.l2jserver.datapack.custom.enginemods.util;
+package com.l2jserver.datapack.custom.engine.util;
 
 import com.l2jserver.gameserver.model.actor.L2Summon;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
