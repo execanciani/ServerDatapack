@@ -1,0 +1,184 @@
+[INFO] 2024-10-10 13:38:08 GameServer: ------------------------------------------------=[ Database ]
+[INFO] 2024-10-10 13:38:08 GameServer: -----------------------------------=[ Network Configuration ]
+[INFO] 2024-10-10 13:38:08 IPConfigData: Using automatic network configuration.
+[INFO] 2024-10-10 13:38:08 IPConfigData: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[INFO] 2024-10-10 13:38:08 IPConfigData: Adding new subnet: 192.168.0.0/24 address: 192.168.0.15
+[INFO] 2024-10-10 13:38:08 IPConfigData: Adding new subnet: 0.0.0.0/0 address: 186.190.200.3
+[INFO] 2024-10-10 13:38:09 HikariDataSource: HikariPool-1 - Starting...
+[INFO] 2024-10-10 13:38:10 HikariPool: HikariPool-1 - Added connection org.mariadb.jdbc.Connection@52eacb4b
+[INFO] 2024-10-10 13:38:10 HikariDataSource: HikariPool-1 - Start completed.
+[INFO] 2024-10-10 13:38:10 IdFactory: Updated characters online status.
+[INFO] 2024-10-10 13:38:10 IdFactory: Cleaned 0 elements from database in 0s.
+[INFO] 2024-10-10 13:38:10 IdFactory: Cleaned 0 expired timestamps from database.
+[INFO] 2024-10-10 13:38:10 BitSetIDFactory: 102912 Ids available.
+[INFO] 2024-10-10 13:38:10 GameServer: ---------------------------------------------------=[ World ]
+[INFO] 2024-10-10 13:38:10 InstanceManager: Multiverse Instance created.
+[INFO] 2024-10-10 13:38:10 InstanceManager: Universe Instance created.
+[INFO] 2024-10-10 13:38:10 InstanceManager: Loaded 160 instance names.
+[INFO] 2024-10-10 13:38:11 L2World: 128 by 136 world region grid set up.
+[INFO] 2024-10-10 13:38:12 MapRegionManager: Loaded 57 map regions.
+[INFO] 2024-10-10 13:38:12 GlobalVariablesManager: Loaded 7 variables.
+[INFO] 2024-10-10 13:38:12 GameServer: ----------------------------------------------------=[ Data ]
+[INFO] 2024-10-10 13:38:12 CategoryData: Loaded 124 Categories.
+[INFO] 2024-10-10 13:38:12 SecondaryAuthData: Loaded 328 forbidden passwords.
+[INFO] 2024-10-10 13:38:12 GameServer: -------------------------------------------------=[ Effects ]
+[INFO] 2024-10-10 13:38:18 EffectMasterHandler: Loaded 170 effect handlers.
+[INFO] 2024-10-10 13:38:18 GameServer: ------------------------------------=[ Enchant Skill Groups ]
+[INFO] 2024-10-10 13:38:18 EnchantSkillGroupsData: Loaded 4 groups and 90 routes.
+[INFO] 2024-10-10 13:38:18 GameServer: ---------------------------------------------=[ Skill Trees ]
+[INFO] 2024-10-10 13:38:19 SkillTreesData: Loaded 17176 Class Skills for 103 Class Skill Trees.
+[INFO] 2024-10-10 13:38:19 SkillTreesData: Loaded 76 Sub-Class Skills.
+[INFO] 2024-10-10 13:38:19 SkillTreesData: Loaded 77 Transfer Skills for 3 Transfer Skill Trees.
+[INFO] 2024-10-10 13:38:19 SkillTreesData: Loaded 117 Fishing Skills, 8 Dwarven only Fishing Skills.
+[INFO] 2024-10-10 13:38:19 SkillTreesData: Loaded 3 Collect Skills.
+[INFO] 2024-10-10 13:38:19 SkillTreesData: Loaded 74 Pledge Skills, 44 for Pledge and 30 Residential.
+[INFO] 2024-10-10 13:38:19 SkillTreesData: Loaded 18 Sub-Pledge Skills.
+[INFO] 2024-10-10 13:38:19 SkillTreesData: Loaded 32 Transform Skills.
+[INFO] 2024-10-10 13:38:19 SkillTreesData: Loaded 8 Noble Skills.
+[INFO] 2024-10-10 13:38:19 SkillTreesData: Loaded 5 Hero Skills.
+[INFO] 2024-10-10 13:38:19 SkillTreesData: Loaded 46 Game Master Skills.
+[INFO] 2024-10-10 13:38:19 SkillTreesData: Loaded 46 Game Master Aura Skills.
+[INFO] 2024-10-10 13:38:19 GameServer: --------------------------------------------------=[ Skills ]
+[INFO] 2024-10-10 13:38:33 DocumentEngine: Loaded 65973 skill templates from XML files.
+[INFO] 2024-10-10 13:38:33 SummonSkillsTable: Loaded 1891 summon skills.
+[INFO] 2024-10-10 13:38:33 GameServer: ---------------------------------------------------=[ Items ]
+[INFO] 2024-10-10 13:38:35 ItemTable: Highest item Id used 22567.
+[INFO] 2024-10-10 13:38:35 ItemTable: Loaded 11481 Etc items.
+[INFO] 2024-10-10 13:38:35 ItemTable: Loaded 3825 Armor items.
+[INFO] 2024-10-10 13:38:35 ItemTable: Loaded 3893 Weapon items.
+[INFO] 2024-10-10 13:38:35 ItemTable: Loaded 19199 items in total.
+[INFO] 2024-10-10 13:38:35 EnchantItemGroupsData: Loaded 4 item group templates.
+[INFO] 2024-10-10 13:38:35 EnchantItemGroupsData: Loaded 1 scroll group templates.
+[INFO] 2024-10-10 13:38:35 EnchantItemData: Loaded 63 enchant scrolls.
+[INFO] 2024-10-10 13:38:35 EnchantItemData: Loaded 20 support items.
+[INFO] 2024-10-10 13:38:35 EnchantItemOptionsData: Loaded 23 items and 1093 options.
+[INFO] 2024-10-10 13:38:37 OptionData: Loaded 24985 item options.
+[INFO] 2024-10-10 13:38:37 EnchantItemHPBonusData: Loaded 6 Enchant HP Bonuses.
+[INFO] 2024-10-10 13:38:38 MerchantPriceConfigTable: Loaded 28 merchant price configs.
+[INFO] 2024-10-10 13:38:42 BuyListData: Loaded 760 buy lists.
+[INFO] 2024-10-10 13:38:43 MultisellData: Loaded 192 multisell lists.
+[INFO] 2024-10-10 13:38:43 RecipeData: Loaded 1000 recipes.
+[INFO] 2024-10-10 13:38:43 ArmorSetsData: Loaded 204 armor sets.
+[INFO] 2024-10-10 13:38:43 FishData: Loaded 278 fish.
+[INFO] 2024-10-10 13:38:43 FishingMonstersData: Loaded 8 fishing monsters.
+[INFO] 2024-10-10 13:38:43 FishingRodsData: Loaded 6 fishing rods.
+[INFO] 2024-10-10 13:38:44 HennaData: Loaded 180 Henna data.
+[INFO] 2024-10-10 13:38:44 GameServer: ----------------------------------------------=[ Characters ]
+[INFO] 2024-10-10 13:38:44 ClassListData: Loaded 107 class data.
+[INFO] 2024-10-10 13:38:44 InitialEquipmentData: Loaded 11 initial equipment data.
+[INFO] 2024-10-10 13:38:44 InitialShortcutData: Loaded 5 initial dlobal shortcuts data.
+[INFO] 2024-10-10 13:38:44 InitialShortcutData: Loaded 4 initial shortcuts data.
+[INFO] 2024-10-10 13:38:44 InitialShortcutData: Loaded 0 macros presets.
+[INFO] 2024-10-10 13:38:44 KarmaData: Loaded 85 karma modifiers.
+[INFO] 2024-10-10 13:38:44 HitConditionBonusData: Loaded Hit Condition bonuses.
+[INFO] 2024-10-10 13:38:45 PlayerTemplateData: Loaded 103 character templates.
+[INFO] 2024-10-10 13:38:45 PlayerTemplateData: Loaded 52530 level up gain records.
+[INFO] 2024-10-10 13:38:45 PlayerCreationPointData: Loaded 62 character creation points.
+[INFO] 2024-10-10 13:38:45 CharNameTable: Loaded 2 char names.
+[INFO] 2024-10-10 13:38:45 AdminData: Loaded 10 access levels.
+[INFO] 2024-10-10 13:38:45 AdminData: Loaded 445 access commands.
+[INFO] 2024-10-10 13:38:45 RaidBossPointsManager: Loaded 0 characters raid points.
+[INFO] 2024-10-10 13:38:46 PetDataTable: Loaded 52 Pets.
+[INFO] 2024-10-10 13:38:46 GameServer: -----------------------------------------------------=[ BBS ]
+[INFO] 2024-10-10 13:38:46 ForumsBBSManager: Loaded 4 forums.
+[INFO] 2024-10-10 13:38:46 GameServer: ---------------------------------------------------=[ Clans ]
+[INFO] 2024-10-10 13:38:46 ClanTable: Restored 0 clans from the database.
+[INFO] 2024-10-10 13:38:46 AuctionManager: Loaded 38 auction(s).
+[INFO] 2024-10-10 13:38:46 ClanHallManager: Loaded 0 clan halls.
+[INFO] 2024-10-10 13:38:46 ClanHallManager: Loaded 38 free clan halls.
+[INFO] 2024-10-10 13:38:46 ClanHallSiegeManager: Loaded 6 conquerable clan halls.
+[INFO] 2024-10-10 13:38:46 GameServer: -------------------------------------------------=[ Geodata ]
+[INFO] 2024-10-10 13:38:46 GeoData: Loaded 0 regions.
+[INFO] 2024-10-10 13:38:46 GameServer: ----------------------------------------------------=[ NPCs ]
+[INFO] 2024-10-10 13:38:46 SkillLearnData: Loaded 256 skill learn data.
+[INFO] 2024-10-10 13:38:46 NpcData$MinionData: Loaded 128 minions data.
+[INFO] 2024-10-10 13:38:51 NpcData: Loaded 10461 NPCs.
+[INFO] 2024-10-10 13:38:52 WalkingManager: Loaded 127 walking routes.
+[INFO] 2024-10-10 13:38:53 StaticObjectData: Loaded 51 static object templates.
+[INFO] 2024-10-10 13:38:53 GrandBossManager: Queen Ant (29001) status is 0.
+[INFO] 2024-10-10 13:38:53 GrandBossManager: Core (29006) status is 0.
+[INFO] 2024-10-10 13:38:53 GrandBossManager: Orfen (29014) status is 0.
+[INFO] 2024-10-10 13:38:53 GrandBossManager: Baium (29020) status is 0.
+[INFO] 2024-10-10 13:38:53 GrandBossManager: Valakas (29028) status is 0.
+[INFO] 2024-10-10 13:38:53 GrandBossManager: Antharas (29068) status is 0.
+[INFO] 2024-10-10 13:38:53 GrandBossManager: Beleth (29118) status is 0.
+[INFO] 2024-10-10 13:38:53 GrandBossManager: Loaded 7 grand boss instances.
+[INFO] 2024-10-10 13:38:54 DoorData: Loaded 1301 door templates for 22 regions.
+[INFO] 2024-10-10 13:38:58 ZoneManager: Loaded 28 zone classes and 2848 zones.
+[INFO] 2024-10-10 13:38:58 ZoneManager: Loaded 0 NPC spawn territoriers.
+[INFO] 2024-10-10 13:38:58 CastleManager: Loaded 9 castles.
+[INFO] 2024-10-10 13:38:58 NpcBufferTable: Loaded 1 buffers and 10 skills.
+[INFO] 2024-10-10 13:38:58 GrandBossManager: Initialized 12 grand boss zones.
+[INFO] 2024-10-10 13:38:58 GameServer: -----------------------------------------=[ Auction Manager ]
+[INFO] 2024-10-10 13:38:58 ItemAuctionInstance: Loaded 82 item(s) and registered 2 auction(s) for NPC ID 32320.
+[INFO] 2024-10-10 13:38:58 ItemAuctionInstance: Schedule next auction ID 4 on 17:00:00 11.10.24 for NPC ID 32320.
+[INFO] 2024-10-10 13:38:58 ItemAuctionInstance: Loaded 82 item(s) and registered 3 auction(s) for NPC ID 32321.
+[INFO] 2024-10-10 13:38:58 ItemAuctionInstance: Schedule next auction ID 7 on 17:00:00 14.10.24 for NPC ID 32321.
+[INFO] 2024-10-10 13:38:58 ItemAuctionInstance: Loaded 82 item(s) and registered 3 auction(s) for NPC ID 32322.
+[INFO] 2024-10-10 13:38:58 ItemAuctionInstance: Schedule next auction ID 8 on 17:00:00 16.10.24 for NPC ID 32322.
+[INFO] 2024-10-10 13:38:58 ItemAuctionManager: Loaded 3 auction manager instance(s).
+[INFO] 2024-10-10 13:38:58 GameServer: ------------------------------------------------=[ Olympiad ]
+[INFO] 2024-10-10 13:38:58 Olympiad: Loading Olympiad System....
+[INFO] 2024-10-10 13:38:58 Olympiad: Currently in Olympiad Period
+[INFO] 2024-10-10 13:38:58 Olympiad: 31581 minutes until period ends
+[INFO] 2024-10-10 13:38:58 Olympiad: Next weekly change is in 9739 minutes
+[INFO] 2024-10-10 13:38:58 Olympiad: Loaded 0 Nobles
+[INFO] 2024-10-10 13:38:58 Olympiad: Competition Period Starts in 0 days, 4 hours and 22 mins.
+[INFO] 2024-10-10 13:38:58 Olympiad: Event starts/started : Thu Oct 10 18:00:58 ART 2024
+[INFO] 2024-10-10 13:38:58 Hero: Loaded 0 Heroes.
+[INFO] 2024-10-10 13:38:58 Hero: Loaded 0 all time Heroes.
+[INFO] 2024-10-10 13:38:58 GameServer: ---------------------------------------------=[ Seven Signs ]
+[INFO] 2024-10-10 13:38:58 SevenSigns: Currently in the Seal Validation period.
+[INFO] 2024-10-10 13:38:58 SevenSigns: The Seal of Avarice remains unclaimed.
+[INFO] 2024-10-10 13:38:58 SevenSigns: The Seal of Gnosis remains unclaimed.
+[INFO] 2024-10-10 13:38:58 SevenSigns: The Seal of Strife remains unclaimed.
+[INFO] 2024-10-10 13:38:58 SevenSigns: The competition ended with a tie last week.
+[INFO] 2024-10-10 13:38:58 SevenSigns: Next period change set to 2024-10-14T18:00:58.571-0300.
+[INFO] 2024-10-10 13:38:58 SevenSigns: Next period begins in 4 days, 4 hours and 21 mins.
+[INFO] 2024-10-10 13:38:58 GameServer: ---------------------------------------------------=[ Cache ]
+[INFO] 2024-10-10 13:38:58 HtmCache: Running lazy cache.
+[INFO] 2024-10-10 13:38:58 CrestTable: Loaded 0 crests.
+[INFO] 2024-10-10 13:38:58 TeleportLocationTable: Loaded 929 teleport location templates.
+[INFO] 2024-10-10 13:38:58 UIData: Loaded 4 keys 5 categories.
+[INFO] 2024-10-10 13:38:58 AugmentationData: Loaded 33960 augmentations.
+[INFO] 2024-10-10 13:38:58 AugmentationData: Loaded 2754 accessory augmentations.
+[INFO] 2024-10-10 13:38:58 CursedWeaponsManager: Loaded 2 cursed weapon(s).
+[INFO] 2024-10-10 13:38:59 TransformData: Loaded 111 transform templates.
+[INFO] 2024-10-10 13:38:59 BotReportTable: Loaded 0 bot reports.
+[INFO] 2024-10-10 13:38:59 AirShipManager: Loaded 0 private airships.
+[INFO] 2024-10-10 13:38:59 GameServer: ------------------------------------------------=[ Handlers ]
+[INFO] 2024-10-10 13:39:06 MasterHandler: Loaded 5 Voiced Command Handler.
+[INFO] 2024-10-10 13:39:06 MasterHandler: Loaded 10 Action Handler.
+[INFO] 2024-10-10 13:39:06 MasterHandler: Loaded 6 Action Shift Handler.
+[INFO] 2024-10-10 13:39:06 MasterHandler: Loaded 448 Admin Command Handler.
+[INFO] 2024-10-10 13:39:06 MasterHandler: Loaded 48 Bypass Handler.
+[INFO] 2024-10-10 13:39:06 MasterHandler: Loaded 14 Chat Handler.
+[INFO] 2024-10-10 13:39:06 MasterHandler: Loaded 15 Community Board Handler.
+[INFO] 2024-10-10 13:39:06 MasterHandler: Loaded 31 Item Handler.
+[INFO] 2024-10-10 13:39:06 MasterHandler: Loaded 3 Punishment Handler.
+[INFO] 2024-10-10 13:39:06 MasterHandler: Loaded 17 User Command Handler.
+[INFO] 2024-10-10 13:39:06 MasterHandler: Loaded 20 Telnet Handler.
+[INFO] 2024-10-10 13:39:06 GameServer: ------------------------------------------------------=[ AI ]
+[INFO] 2024-10-10 13:39:13 NpcBuffersData: Loaded 33 buffers data.
+[INFO] 2024-10-10 13:39:13 HandysBlockCheckerEvent: Loaded Handy's Block Checker event.
+[INFO] 2024-10-10 13:39:13 AILoader: Loaded 194 AI scripts.
+[INFO] 2024-10-10 13:39:13 GameServer: -----------------------------------------------=[ Instances ]
+[INFO] 2024-10-10 13:39:16 InstanceLoader: Loaded 30 instnaces.
+[INFO] 2024-10-10 13:39:16 GameServer: --------------------------------------------------=[ Gracia ]
+[INFO] 2024-10-10 13:39:18 GraciaLoader: Loaded 28 Gracia scripts.
+[INFO] 2024-10-10 13:39:18 GameServer: -----------------------------------------------=[ Hellbound ]
+[INFO] 2024-10-10 13:39:19 HellboundPointData: Loaded 47 trust point reward data.
+[INFO] 2024-10-10 13:39:19 HellboundSpawns: Loaded 598 Hellbound spawns.
+[INFO] 2024-10-10 13:39:19 HellboundEngine: Level 0.
+[INFO] 2024-10-10 13:39:19 HellboundEngine: Trust 0.
+[INFO] 2024-10-10 13:39:19 HellboundEngine: Status locked.
+[INFO] 2024-10-10 13:39:19 RaidBossSpawnManager: Spawning raid bosses...
+[INFO] 2024-10-10 13:39:20 RaidBossSpawnManager: Loaded 188 bosses.
+[INFO] 2024-10-10 13:39:20 RaidBossSpawnManager: Scheduled 0 boss instances.
+[INFO] 2024-10-10 13:39:20 HellboundLoader: Loaded 34 Hellbound scripts.
+[INFO] 2024-10-10 13:39:20 GameServer: --------------------------------------------------=[ Quests ]
+[INFO] 2024-10-10 13:39:31 Q00350_EnhanceYourWeapon: Loaded 54 soul crystal data.
+[INFO] 2024-10-10 13:39:31 Q00350_EnhanceYourWeapon: Loaded 240 npc leveling data.
+[INFO] 2024-10-10 13:39:32 QuestLoader: Loaded 502 quests.
+[INFO] 2024-10-10 13:39:32 TerritoryWarSuperClass: TerritoryWarSuperClass: Siege date: 2024-10-13T22:00:00.947-0300
+[INFO] 2024-10-10 13:39:32 GameServer: -------------------------------------------------=[ Scripts ]

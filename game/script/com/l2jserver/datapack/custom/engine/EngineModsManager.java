@@ -2,6 +2,7 @@ package com.l2jserver.datapack.custom.engine;
 
 import com.l2jserver.datapack.custom.engine.bypass.EngineBypassHandler;
 import com.l2jserver.datapack.custom.engine.data.ModsData;
+import com.l2jserver.datapack.custom.engine.data.NpcData;
 import com.l2jserver.datapack.custom.engine.data.PlayerData;
 import com.l2jserver.datapack.custom.engine.data.SchemeBuffData;
 import com.l2jserver.datapack.custom.engine.mods.AbstractMods;
@@ -24,6 +25,7 @@ public class EngineModsManager extends AbstractMods
 		//ConfigData.load();
 		PlayerData.load();
 		ModsData.load();
+		NpcData.load();
 		SchemeBuffData.load();
 	}
 

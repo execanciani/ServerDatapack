@@ -46,6 +46,21 @@ public class NpcHolder {
 		return _team;
 	}
 	
+	public int getLevel()
+	{
+		return getNpc(_objectId).getLevel();
+	}
+	
+	public int getId()
+	{
+		return getNpc(_objectId).getId();
+	}
+	
+	public L2Npc getNpc()
+	{
+		return (L2Npc) L2World.getInstance().findObject(_objectId);
+	}
+	
 	public L2Npc getNpc(L2Npc npc)
 	{
 		return	(L2Npc) L2World.getInstance().findObject(npc.getObjectId());

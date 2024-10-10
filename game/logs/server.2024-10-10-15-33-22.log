@@ -1,0 +1,107 @@
+[INFO] 2024-10-10 15:33:23 GameServer: ------------------------------------------------=[ Database ]
+[INFO] 2024-10-10 15:33:23 GameServer: -----------------------------------=[ Network Configuration ]
+[INFO] 2024-10-10 15:33:23 IPConfigData: Using automatic network configuration.
+[INFO] 2024-10-10 15:33:23 IPConfigData: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[INFO] 2024-10-10 15:33:23 IPConfigData: Adding new subnet: 192.168.0.0/24 address: 192.168.0.15
+[INFO] 2024-10-10 15:33:23 IPConfigData: Adding new subnet: 0.0.0.0/0 address: 186.190.200.3
+[INFO] 2024-10-10 15:33:24 HikariDataSource: HikariPool-1 - Starting...
+[INFO] 2024-10-10 15:33:25 HikariPool: HikariPool-1 - Added connection org.mariadb.jdbc.Connection@32f61a31
+[INFO] 2024-10-10 15:33:25 HikariDataSource: HikariPool-1 - Start completed.
+[INFO] 2024-10-10 15:33:25 IdFactory: Updated characters online status.
+[INFO] 2024-10-10 15:33:25 IdFactory: Cleaned 0 elements from database in 0s.
+[INFO] 2024-10-10 15:33:25 IdFactory: Cleaned 0 expired timestamps from database.
+[INFO] 2024-10-10 15:33:25 BitSetIDFactory: 102912 Ids available.
+[INFO] 2024-10-10 15:33:25 GameServer: ---------------------------------------------------=[ World ]
+[INFO] 2024-10-10 15:33:25 InstanceManager: Multiverse Instance created.
+[INFO] 2024-10-10 15:33:25 InstanceManager: Universe Instance created.
+[INFO] 2024-10-10 15:33:26 InstanceManager: Loaded 160 instance names.
+[INFO] 2024-10-10 15:33:26 L2World: 128 by 136 world region grid set up.
+[WARN] 2024-10-10 15:33:27 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:33:27 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:33:27 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:33:27 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:33:27 ErrorPacket: Error: 1040-HY000: Too many connections
+[INFO] 2024-10-10 15:33:27 MapRegionManager: Loaded 57 map regions.
+[INFO] 2024-10-10 15:33:27 GlobalVariablesManager: Loaded 7 variables.
+[INFO] 2024-10-10 15:33:27 GameServer: ----------------------------------------------------=[ Data ]
+[INFO] 2024-10-10 15:33:27 CategoryData: Loaded 124 Categories.
+[WARN] 2024-10-10 15:33:27 ErrorPacket: Error: 1040-HY000: Too many connections
+[INFO] 2024-10-10 15:33:28 SecondaryAuthData: Loaded 328 forbidden passwords.
+[INFO] 2024-10-10 15:33:28 GameServer: -------------------------------------------------=[ Effects ]
+[WARN] 2024-10-10 15:33:28 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:33:28 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:33:30 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:33:32 ErrorPacket: Error: 1040-HY000: Too many connections
+[INFO] 2024-10-10 15:33:35 EffectMasterHandler: Loaded 170 effect handlers.
+[INFO] 2024-10-10 15:33:35 GameServer: ------------------------------------=[ Enchant Skill Groups ]
+[INFO] 2024-10-10 15:33:35 EnchantSkillGroupsData: Loaded 4 groups and 90 routes.
+[INFO] 2024-10-10 15:33:35 GameServer: ---------------------------------------------=[ Skill Trees ]
+[WARN] 2024-10-10 15:33:37 ErrorPacket: Error: 1040-HY000: Too many connections
+[INFO] 2024-10-10 15:33:38 SkillTreesData: Loaded 17176 Class Skills for 103 Class Skill Trees.
+[INFO] 2024-10-10 15:33:38 SkillTreesData: Loaded 76 Sub-Class Skills.
+[INFO] 2024-10-10 15:33:38 SkillTreesData: Loaded 77 Transfer Skills for 3 Transfer Skill Trees.
+[INFO] 2024-10-10 15:33:38 SkillTreesData: Loaded 117 Fishing Skills, 8 Dwarven only Fishing Skills.
+[INFO] 2024-10-10 15:33:38 SkillTreesData: Loaded 3 Collect Skills.
+[INFO] 2024-10-10 15:33:38 SkillTreesData: Loaded 74 Pledge Skills, 44 for Pledge and 30 Residential.
+[INFO] 2024-10-10 15:33:38 SkillTreesData: Loaded 18 Sub-Pledge Skills.
+[INFO] 2024-10-10 15:33:38 SkillTreesData: Loaded 32 Transform Skills.
+[INFO] 2024-10-10 15:33:38 SkillTreesData: Loaded 8 Noble Skills.
+[INFO] 2024-10-10 15:33:38 SkillTreesData: Loaded 5 Hero Skills.
+[INFO] 2024-10-10 15:33:38 SkillTreesData: Loaded 46 Game Master Skills.
+[INFO] 2024-10-10 15:33:38 SkillTreesData: Loaded 46 Game Master Aura Skills.
+[INFO] 2024-10-10 15:33:38 GameServer: --------------------------------------------------=[ Skills ]
+[WARN] 2024-10-10 15:33:42 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:33:47 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:33:52 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:33:57 ErrorPacket: Error: 1040-HY000: Too many connections
+[INFO] 2024-10-10 15:33:57 DocumentEngine: Loaded 65973 skill templates from XML files.
+[INFO] 2024-10-10 15:33:58 SummonSkillsTable: Loaded 1891 summon skills.
+[INFO] 2024-10-10 15:33:58 GameServer: ---------------------------------------------------=[ Items ]
+[WARN] 2024-10-10 15:34:02 ErrorPacket: Error: 1040-HY000: Too many connections
+[INFO] 2024-10-10 15:34:05 ItemTable: Highest item Id used 22567.
+[INFO] 2024-10-10 15:34:05 ItemTable: Loaded 11481 Etc items.
+[INFO] 2024-10-10 15:34:05 ItemTable: Loaded 3825 Armor items.
+[INFO] 2024-10-10 15:34:05 ItemTable: Loaded 3893 Weapon items.
+[INFO] 2024-10-10 15:34:05 ItemTable: Loaded 19199 items in total.
+[INFO] 2024-10-10 15:34:05 EnchantItemGroupsData: Loaded 4 item group templates.
+[INFO] 2024-10-10 15:34:05 EnchantItemGroupsData: Loaded 1 scroll group templates.
+[INFO] 2024-10-10 15:34:05 EnchantItemData: Loaded 63 enchant scrolls.
+[INFO] 2024-10-10 15:34:05 EnchantItemData: Loaded 20 support items.
+[INFO] 2024-10-10 15:34:05 EnchantItemOptionsData: Loaded 23 items and 1093 options.
+[WARN] 2024-10-10 15:34:08 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:34:13 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:34:18 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:34:23 ErrorPacket: Error: 1040-HY000: Too many connections
+[INFO] 2024-10-10 15:34:26 OptionData: Loaded 24985 item options.
+[INFO] 2024-10-10 15:34:26 EnchantItemHPBonusData: Loaded 6 Enchant HP Bonuses.
+[INFO] 2024-10-10 15:34:27 MerchantPriceConfigTable: Loaded 28 merchant price configs.
+[WARN] 2024-10-10 15:34:28 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:34:33 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:34:38 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:34:43 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:34:48 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:34:53 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:34:58 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:35:03 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:35:08 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:35:13 ErrorPacket: Error: 1040-HY000: Too many connections
+[INFO] 2024-10-10 15:35:13 BuyListData: Loaded 760 buy lists.
+[WARN] 2024-10-10 15:35:18 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:35:23 ErrorPacket: Error: 1040-HY000: Too many connections
+[INFO] 2024-10-10 15:35:26 MultisellData: Loaded 192 multisell lists.
+[INFO] 2024-10-10 15:35:26 RecipeData: Loaded 1000 recipes.
+[INFO] 2024-10-10 15:35:28 ArmorSetsData: Loaded 204 armor sets.
+[INFO] 2024-10-10 15:35:28 FishData: Loaded 278 fish.
+[INFO] 2024-10-10 15:35:28 FishingMonstersData: Loaded 8 fishing monsters.
+[INFO] 2024-10-10 15:35:28 FishingRodsData: Loaded 6 fishing rods.
+[INFO] 2024-10-10 15:35:28 HennaData: Loaded 180 Henna data.
+[INFO] 2024-10-10 15:35:28 GameServer: ----------------------------------------------=[ Characters ]
+[INFO] 2024-10-10 15:35:28 ClassListData: Loaded 107 class data.
+[INFO] 2024-10-10 15:35:28 InitialEquipmentData: Loaded 11 initial equipment data.
+[INFO] 2024-10-10 15:35:29 InitialShortcutData: Loaded 5 initial dlobal shortcuts data.
+[INFO] 2024-10-10 15:35:29 InitialShortcutData: Loaded 4 initial shortcuts data.
+[INFO] 2024-10-10 15:35:29 InitialShortcutData: Loaded 0 macros presets.
+[INFO] 2024-10-10 15:35:29 KarmaData: Loaded 85 karma modifiers.
+[INFO] 2024-10-10 15:35:29 HitConditionBonusData: Loaded Hit Condition bonuses.
+[WARN] 2024-10-10 15:35:29 ErrorPacket: Error: 1040-HY000: Too many connections
+[WARN] 2024-10-10 15:35:34 ErrorPacket: Error: 1040-HY000: Too many connections
