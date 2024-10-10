@@ -12,7 +12,7 @@ public class EngineModsManager extends AbstractMods
 	
 	public EngineModsManager()
 	{	
-		LOG.info("[EngineModsManager]: Mod Loaded");
+		LOG.info("[EngineModsManager]: Mod Cargado");
 		
 		load();
 	}

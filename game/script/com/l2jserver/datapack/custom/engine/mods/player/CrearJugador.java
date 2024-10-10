@@ -19,15 +19,15 @@ public class CrearJugador extends AbstractMods
 {	
 	private final List<ItemHolder> _soulshots = new ArrayList<>();
 	{
-		//soulshots S
-		_soulshots.add(new ItemHolder(ItemTable.getInstance().getTemplate(1467), 10000));
+		//soulshots D
+		_soulshots.add(new ItemHolder(ItemTable.getInstance().getTemplate(1463), 1000));
 		//blessed spiritshots s
-		_soulshots.add(new ItemHolder(ItemTable.getInstance().getTemplate(3952), 10000));
+		_soulshots.add(new ItemHolder(ItemTable.getInstance().getTemplate(3948), 1000));
 	}
 	
 	public CrearJugador()
 	{
-		LOG.info("[InitiateCharacter]: Mod Loaded");
+		LOG.info("[CrearJugador]: Mod Cargado");
 	}
 
 	@Override
@@ -51,9 +51,9 @@ public class CrearJugador extends AbstractMods
 		player.teleToLocation(83013, 148623, -3469);
 		
 		//ponemos el lvl en 85
-		if (player.getLevel() < 85)
+		if (player.getLevel() < 40)
 		{
-			player.setLevel(85);
+			player.setLevel(40);
 		}
 		
 		//setHasEquipment(event.getActiveChar());

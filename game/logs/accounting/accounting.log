@@ -1,7 +1,2 @@
-[INFO] 2024-09-29 09:55:55 accounting: Client [Character: Admin[268481945] - Account: test - IP: 127.0.0.1] logged in.
-[INFO] 2024-09-29 09:56:08 accounting: Client [Character: Admin[268481945] - Account: test - IP: 127.0.0.1] restarted.
-[INFO] 2024-09-29 09:56:23 accounting: Created new character ptest [268481205] [Account: test - IP: 127.0.0.1].
-[INFO] 2024-09-29 09:57:25 accounting: Client [Character: ptest[268481205] - Account: test - IP: 127.0.0.1] logged in.
-[INFO] 2024-09-29 09:58:24 accounting: Client [Character: ptest[268481205] - Account: test - IP: 127.0.0.1] restarted.
-[INFO] 2024-09-29 09:58:29 accounting: Deleted character Id 268481205 and client [Account: test - IP: 127.0.0.1].
-[INFO] 2024-09-29 10:00:25 accounting: Restoring Character Id 268481205, client [Account: test - IP: 127.0.0.1].
+[INFO] 2024-10-05 20:58:26 accounting: Client [Character: Admin[268481945] - Account: test - IP: 127.0.0.1] logged in.
+[INFO] 2024-10-05 21:02:10 accounting: Client [Character: Admin[268481945] - Account: test - IP: 127.0.0.1] logged out.

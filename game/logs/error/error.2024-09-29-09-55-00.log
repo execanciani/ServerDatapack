@@ -1,0 +1,6 @@
+[WARN] 2024-09-29 12:34:27 Quest: Unknown quest Q00255_Tutorial for player Admin!
+[WARN] 2024-09-29 12:34:27 Quest: Lost variable memoState in quest Q00255_Tutorial for player Admin!
+[WARN] 2024-09-29 12:34:27 Quest: Lost variable memoStateEx1 in quest Q00255_Tutorial for player Admin!
+[WARN] 2024-09-29 12:34:47 L2GameClientPacket: No handler registered for admin command 'admin_server'
+[WARN] 2024-09-29 12:35:02 Shutdown: GM: Admin(268481945) issued shutdown command. restarting in 0 seconds!
+[WARN] 2024-09-29 12:35:02 Shutdown: GM shutdown countdown is over. restarting NOW!

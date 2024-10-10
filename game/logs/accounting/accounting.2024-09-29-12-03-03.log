@@ -1,0 +1,6 @@
+[INFO] 2024-09-29 12:06:11 accounting: Client [Character: Admin[268481945] - Account: test - IP: 127.0.0.1] logged in.
+[INFO] 2024-09-29 12:12:17 accounting: Client [Character: Admin[268481945] - Account: test - IP: 127.0.0.1] restarted.
+[INFO] 2024-09-29 12:12:41 accounting: Created new character ptest2 [268481738] [Account: test - IP: 127.0.0.1].
+[INFO] 2024-09-29 12:12:51 accounting: Client [Character: ptest2[268481738] - Account: test - IP: 127.0.0.1] logged in.
+[INFO] 2024-09-29 12:34:19 accounting: Client [Character: ptest2[268481738] - Account: test - IP: 127.0.0.1] restarted.
+[INFO] 2024-09-29 12:34:25 accounting: Client [Character: Admin[268481945] - Account: test - IP: 127.0.0.1] logged in.
